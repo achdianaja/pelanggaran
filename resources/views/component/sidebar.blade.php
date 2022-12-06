@@ -45,16 +45,16 @@
                 <li class="sidebar-title">Menu</li>
 
                 <li class="sidebar-item active">
-                    <a href="index.html" class="sidebar-link">
+                    <a href="/" class="sidebar-link">
                         <i class="bi bi-grid-fill"></i>
-                        <span>Dashboard</span>
+                        <span>Halaman Utama</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item has-sub">
                     <a href="#" class="sidebar-link">
                         <i class="bi bi-stack"></i>
-                        <span>Components</span>
+                        <span>Pelanggaran</span>
                     </a>
                     <ul class="submenu">
                         <li class="submenu-item">
@@ -69,14 +69,11 @@
                 <li class="sidebar-item has-sub">
                     <a href="#" class="sidebar-link">
                         <i class="bi bi-collection-fill"></i>
-                        <span>Extra Components</span>
+                        <span>Kelas</span>
                     </a>
                     <ul class="submenu">
                         <li class="submenu-item">
-                            <a href="extra-component-avatar.html">Avatar</a>
-                        </li>
-                        <li class="submenu-item">
-                            <a href="extra-component-sweetalert.html">Sweet Alert</a>
+                            <a href="extra-component-avatar.html">Data Kelas</a>
                         </li>
                     </ul>
                 </li>
@@ -84,14 +81,11 @@
                 <li class="sidebar-item has-sub">
                     <a href="#" class="sidebar-link">
                         <i class="bi bi-grid-1x2-fill"></i>
-                        <span>Layouts</span>
+                        <span>Rekap Data</span>
                     </a>
                     <ul class="submenu">
                         <li class="submenu-item">
-                            <a href="layout-default.html">Default Layout</a>
-                        </li>
-                        <li class="submenu-item">
-                            <a href="layout-vertical-1-column.html">1 Column</a>
+                            <a href="layout-default.html">Hasil Rekap</a>
                         </li>
                     </ul>
                 </li>
