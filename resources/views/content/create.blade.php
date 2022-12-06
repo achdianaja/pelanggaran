@@ -16,8 +16,7 @@
                                 <div class="form-group has-icon-left">
                                     <label for="first-name-icon">Nama Siswa</label>
                                     <div class="position-relative">
-                                        <input type="text" class="form-control" placeholder="Input with icon left"
-                                            id="first-name-icon" />
+                                        <input type="text" class="form-control" placeholder="Input with icon left" id="first-name-icon" name="name">
                                         <div class="form-control-icon">
                                             <i class="bi bi-person"></i>
                                         </div>
@@ -29,7 +28,7 @@
                                     <label for="email-id-icon">Pelanggaran</label>
                                     <div class="position-relative">
                                         <input type="text" class="form-control" placeholder="Email"
-                                            id="email-id-icon" />
+                                            id="email-id-icon" name="violation">
                                         <div class="form-control-icon">
                                             <i class="bi bi-envelope"></i>
                                         </div>
@@ -40,31 +39,12 @@
                                 <div class="form-group has-icon-left">
                                     <label for="mobile-id-icon">Kelas</label>
                                     <div class="position-relative">
-                                        <input type="text" class="form-control" placeholder="Mobile"
-                                            id="mobile-id-icon" />
+                                        <select type="text" class="form-control" placeholder="Mobile" id="mobile-id-icon" >
+                                            <option value="">ioi</option>
+                                        </select>
                                         <div class="form-control-icon">
                                             <i class="bi bi-phone"></i>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-group has-icon-left">
-                                    <label for="password-id-icon">Password</label>
-                                    <div class="position-relative">
-                                        <input type="password" class="form-control" placeholder="Password"
-                                            id="password-id-icon" />
-                                        <div class="form-control-icon">
-                                            <i class="bi bi-lock"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-check">
-                                    <div class="checkbox mt-2">
-                                        <input type="checkbox" id="remember-me-v" class="form-check-input" checked />
-                                        <label for="remember-me-v">Remember Me</label>
                                     </div>
                                 </div>
                             </div>

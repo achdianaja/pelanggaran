@@ -22,3 +22,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [DashboardController::class, 'show']);
 
 Route::get('/add', [InfringementController::class, 'create']);
+Route::post('/store', [InfringementController::class, 'store']);
+Route::get('/show', [InfringementController::class, 'show']);
