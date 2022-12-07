@@ -18,8 +18,9 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('content.dashboard');
 // });
-
 Route::get('/', [DashboardController::class, 'show']);
+Route::get('/class', [DashboardController::class, 'showClass']);
+
 
 Route::get('/add', [InfringementController::class, 'create']);
 Route::post('/store', [InfringementController::class, 'store']);

@@ -73,7 +73,7 @@
                     </a>
                     <ul class="submenu">
                         <li class="submenu-item">
-                            <a href="extra-component-avatar.html">Data Kelas</a>
+                            <a href="/class">Data Kelas</a>
                         </li>
                     </ul>
                 </li>
